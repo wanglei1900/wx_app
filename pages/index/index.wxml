@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<view class="indexContainer">
+    <image class="avatarUrl" src="/images/QQ图片20220124235653.jpg"></image>
+    <text class="userNmae">{{msg}}</text>
+  <!-- <view class="goStydy" catchlongtap="handlerParent">
+    <text catchlongtap="handlerChild">程序测试开启</text>
+  </view> -->
+  <view class="goStydy" catchtap="toLogs">
+    <text>开启小程序</text>
+  </view>
+</view>
